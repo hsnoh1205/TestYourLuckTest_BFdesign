@@ -1,4 +1,9 @@
 <resources>
+
+    <string name="button_check">CHECK</string>
+    <string name="text_guess">Guess the number!</string>
+    <string name="text_congrates">Congratulation! You guessed in \t </string>
+    <string name="text_tries">\t tries</string>
     <string name="app_name">MainPage</string>
     <string-array name="text">
 
@@ -25,4 +30,5 @@
 
 
     </string-array>
+
 </resources>

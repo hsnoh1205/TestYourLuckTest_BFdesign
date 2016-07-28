@@ -36,5 +36,21 @@ public class MainPage extends AppCompatActivity {
                 startActivityForResult(intent, 0);
             }
         });
+        Button b_Updown = (Button) findViewById(R.id.b_Updown);
+        b_Updown.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), Updown.class);
+                startActivityForResult(intent, 0);
+            }
+        });
+        Button b_Rock = (Button) findViewById(R.id.b_rock);
+        b_Rock.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), Rock.class);
+                startActivityForResult(intent, 0);
+            }
+        });
     }
 }

@@ -37,4 +37,22 @@
         android:layout_below="@+id/b_bottle"
         android:layout_alignRight="@+id/b_ball"
         android:layout_alignEnd="@+id/b_ball" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Updown"
+        android:id="@+id/b_Updown"
+        android:layout_below="@+id/b_coin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rock Paper Scissor"
+        android:id="@+id/b_rock"
+        android:layout_below="@+id/b_Updown"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
