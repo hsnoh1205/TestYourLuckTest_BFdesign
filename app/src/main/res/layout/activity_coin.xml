@@ -11,10 +11,10 @@
     android:layout_gravity="center"
     tools:context="com.example.alab.mainpage.coin">
     <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         android:id="@+id/iv_coin"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="70dp"
         android:scaleType="centerInside"
         android:src="@drawable/front"
         android:layout_gravity="center_horizontal" />
@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Flip"
-        android:layout_margin="20dp"
+        android:layout_margin="40dp"
         android:id="@+id/b_flip"
         android:layout_gravity="center_horizontal" />
 
