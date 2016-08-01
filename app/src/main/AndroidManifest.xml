@@ -19,7 +19,8 @@
         <activity android:name=".bottle" />
         <activity android:name=".coin" />
         <activity android:name=".updown" />
-        <activity android:name=".rock"></activity>
+        <activity android:name=".rock" />
+        <activity android:name=".loading"></activity>
     </application>
 
 </manifest>
